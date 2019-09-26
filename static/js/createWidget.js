@@ -11,6 +11,6 @@ const createResponsiveEmbed = url => {
 
 window.addEventListener("load", async () => {
   const sampleDiv = document.querySelector("#sample-graph");
-  const responsiveDiv = createResponsiveEmbed("/static/sample.html");
+  const responsiveDiv = createResponsiveEmbed("./static/sample.html");
   sampleDiv.appendChild(responsiveDiv);
 });
